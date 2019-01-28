@@ -1,13 +1,14 @@
 # Développer le front (niveau 3)
 
-Une assocation de tri sélectif a besoin d'une page internet informative à destinations des collégiens. Le but de cette page est d'expliquer les différentes couleurs de poubelles et leur fonction.
+Une assocation "Femmes 974" a besoin d'une refonte de leur [site web] (http://www.femmes974.info/). 
 
-Le contenu texte à utiliser pour la page HTML se trouve dans le fichier [Content.md](./Content.md).
+Le contenu texte à utiliser est celui du site existant [Femmes 974](http://www.femmes974.info/), pas de contraintes au niveau des images.
 
-Votre travail consiste à 
+Votre travail consiste à :
 
-* Créer un wireframe en vous basant sur l'objectif du site, la cible et le contenu fourni
-* Développer la page HTML en respectant le wireframe et la charte graphique
+* Proposer une nouvelle structuration du contenu en mode landing page
+* Créer un wireframe (desktop et mobile) en vous basant sur l'objectif du site, la cible et le contenu fourni
+* Développer la page web (landing page) en respectant le wireframe et la charte graphique
 
 Le design n'est pas le plus important, il peut être simple,  mais il doit être professionnel.
 
@@ -17,8 +18,9 @@ Vous avez des images à utiliser comme bon vous semble.
 
 Les couleurs à respecter sont : 
 
-* Vert : #17721c
-* Magenta : #72173C
+* Vert : #107F6A
+* Cyan : #6DFFE4
+* Vert-bleu : #1ACCAB
 
 La police est *Quicksand Regular* pour les corps de textes et *Quicksand medium* pour les titres (h1,h2, etc.)
 
@@ -29,6 +31,7 @@ Votre site doit :
 * Être Responsive
 * Respecter les standards d'accessibilité web
 * Utiliser intelligemment au moins une des fonctionnalités, en relation avec du javascript, suivantes  : modal, slider, popover, tooltips.
+* Utiliser des icones [FontAwesome](https://fontawesome.com/)
 * Le code doit être clean (bien indenté, pas de commentaires inutiles, etc.)
 * Correspondre à votre wireframe
 * Respecter la charte graphique
@@ -39,7 +42,7 @@ Votre site doit :
     +-- README.md
     +-- index.html    
     +-- css
-    │   +-- styles.css   
+    │   +-- custom.css   
     +-- js
     |   +-- script.js
     +-- img
@@ -50,4 +53,4 @@ Votre site doit :
 
 Vous devez rendre un lien github de votre projet.
 
-**Votre repos github doit contenir le wireframe** 
+**Votre repos github doit contenir le wireframe desktop et mobile** 
